@@ -1,0 +1,26 @@
+.form-group{
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+    margin-top: 10rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.form-control{
+    margin-top: 5px;
+    margin-bottom: 5px;
+     
+}
+
+body{
+    background-image: url(./img.jpg);
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .form-group{
+        font-size: 30px;
+    }
+}
